@@ -1,0 +1,137 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    background: #171c29;
+}
+header{
+    background: #dfdfdf;
+    padding: 20px;
+}
+h1{
+    color: #171c29;
+    text-align: center;
+    width:100%;
+    font-family:'Indie Flower',cursive;
+}
+.scoreboard{
+    margin: 20px auto;
+    border-radius: 7px; 
+    border:3px solid white;
+    width: 300px;
+    color: #dfdfdf;
+    font-size:35px;
+    padding: 20px 15px;
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    position: relative;
+}
+
+.badge{
+    background: #db4242;
+    color:white;
+    padding: 2px 10px;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    
+}
+#user{
+    position: absolute;
+    top:20px;
+    left: -30px;
+
+}
+#computer{
+    position: absolute;
+    top:20px;
+    right: -70px;
+
+}
+.result{
+    color: #dfdfdf;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Indie Flower',cursive;
+}
+.choices{
+    padding-top: 25px;
+    text-align: center;
+    color: #dfdfdf;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Indie Flower',cursive;
+}
+.choice{
+    padding-left:20px; 
+    padding-right:20px; 
+    margin-top: 10px;
+    display: inline-block;
+    transition: all 0.3s;
+
+}
+#R.choice:hover{
+    cursor: pointer;
+    background:#fc5c00;
+    border-radius: 80%;
+}
+#P.choice:hover{
+    cursor: pointer;
+    background:#2199e8;
+    border-radius: 100%;
+}
+#S.choice:hover{
+    cursor: pointer;
+    background:#ff2794;
+    border-radius: 80%;
+}
+#actionmsg{
+    color: #dfdfdf;
+    text-align: center;
+    font-size: 18px;
+    font-family:'Indie Flower',cursive;  
+}
+#winlose{
+    text-align: center;
+   
+    
+    font-family:'Indie Flower',cursive; 
+    margin: 20px auto;
+    
+}
+.green-glow{
+   color:green;
+    font-size: 30px;
+}
+.red-glow{
+    color:red;
+    font-size: 30px;
+}
+.white-glow{
+    color:white;
+    font-size: 30px;
+}
+.author{
+    padding-top: 70px;
+    text-align: center;
+    color: #dfdfdf;
+    
+    text-align: center;
+    font-family: 'Indie Flower',cursive;
+}
+#madeby.auth{
+    font-size: 15px;
+    
+}
+#name.auth{
+    font-size: 30px;
+}
+#surname.auth{
+    font-size: 20px;
+}
